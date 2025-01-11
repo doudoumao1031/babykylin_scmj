@@ -1,0 +1,341 @@
+account server is listening on 9000
+client service is listening on port 9001
+game server is listening on localhost:9003
+room service is listening on localhost:9002
+dealer api is listening on localhost:12581
+game server is listening on 10000
+game server registered.
+	id:127.0.0.1:10000
+	addr:127.0.0.1
+	http port:9003
+	socket clientport:10000
+127.0.0.1:10000
+5f07171cb498d75fd82ecd0de85df3a9
+invalid parameters
+南宫赌圣
+INSERT INTO t_users(userid,account,name,coins,gems,sex,headimg) VALUES("716725", "guest_1736587879194","5Y2X5a6r6LWM5Zyj",1000,21,0,null)
+SELECT name,sex,headimg FROM t_users WHERE userid=716725
+{ type: 'xzdd',
+  baseScore: 1,
+  zimo: 0,
+  jiangdui: false,
+  hsz: false,
+  dianganghua: 0,
+  menqing: false,
+  tiandihu: false,
+  maxFan: 4,
+  maxGames: 4,
+  creator: 716725 }
+INSERT INTO t_rooms(uuid,id,base_info,ip,port,create_time)                 VALUES('1736588190341685971','685971','{"type":"xzdd","baseScore":1,"zimo":0,"jiangdui":false,"hsz":false,"dianganghua":0,"menqing":false,"tiandihu":false,"maxFan":4,"maxGames":4,"creator":716725}','127.0.0.1',10000,1736588191)
+1736588190341685971
+{ userid: '716725',
+  name: '南宫赌圣',
+  roomid: '685971',
+  sign: '229920338ba7483a5928c39c697b04a2' }
+229920338ba7483a5928c39c697b04a2
+{ token: '2492420d6716477e0925b94b90bf116f',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "685971" WHERE userid = "716725"
+685971
+2492420d6716477e0925b94b90bf116f
+1736588190457
+8d389f951ec2e6ab6de708fcf83ccaf5
+{ userid: '716725',
+  name: '南宫赌圣',
+  roomid: '685971',
+  sign: '229920338ba7483a5928c39c697b04a2' }
+229920338ba7483a5928c39c697b04a2
+{ token: '718f3d40867cc866cea17cc56753f525',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "685971" WHERE userid = "716725"
+685971
+718f3d40867cc866cea17cc56753f525
+1736588499796
+43885f3a4e79592ea66ae8fb7b3feca2
+1
+4
+SELECT name,sex,headimg FROM t_users WHERE userid=716725
+{ userid: '716725',
+  name: '南宫赌圣',
+  roomid: '685971',
+  sign: '229920338ba7483a5928c39c697b04a2' }
+229920338ba7483a5928c39c697b04a2
+{ token: '911ab5e2162960e8d84a9500ecbcfc17',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "685971" WHERE userid = "716725"
+685971
+911ab5e2162960e8d84a9500ecbcfc17
+1736588531443
+891ee8f61e65ce916f35248c1136b516
+SELECT name,sex,headimg FROM t_users WHERE userid=716725
+{ userid: '716725',
+  name: '南宫赌圣',
+  roomid: '685971',
+  sign: '229920338ba7483a5928c39c697b04a2' }
+229920338ba7483a5928c39c697b04a2
+{ token: 'aa700f09671e1f92f123f759a02c471e',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "685971" WHERE userid = "716725"
+685971
+aa700f09671e1f92f123f759a02c471e
+1736588547324
+2e4ba90750d9180c38fce209de7193b3
+1
+4
+UPDATE t_users SET roomid = null WHERE userid = "716725"
+DELETE FROM t_rooms WHERE id = '685971'
+{ type: 'xzdd',
+  baseScore: 1,
+  zimo: 0,
+  jiangdui: false,
+  hsz: false,
+  dianganghua: 0,
+  menqing: false,
+  tiandihu: false,
+  maxFan: 4,
+  maxGames: 4,
+  creator: 716725 }
+INSERT INTO t_rooms(uuid,id,base_info,ip,port,create_time)                 VALUES('1736588564213695426','695426','{"type":"xzdd","baseScore":1,"zimo":0,"jiangdui":false,"hsz":false,"dianganghua":0,"menqing":false,"tiandihu":false,"maxFan":4,"maxGames":4,"creator":716725}','127.0.0.1',10000,1736588565)
+1736588564213695426
+{ userid: '716725',
+  name: '南宫赌圣',
+  roomid: '695426',
+  sign: '32dd032002a3688e937653d765b14f9d' }
+32dd032002a3688e937653d765b14f9d
+{ token: '50a9d7812b7400cf2dfe31022d692a64',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "695426" WHERE userid = "716725"
+695426
+50a9d7812b7400cf2dfe31022d692a64
+1736588564237
+41a76ce23a562dc112463a9d7c90b29b
+SELECT name,sex,headimg FROM t_users WHERE userid=716725
+{ userid: '716725',
+  name: '南宫赌圣',
+  roomid: '695426',
+  sign: '32dd032002a3688e937653d765b14f9d' }
+32dd032002a3688e937653d765b14f9d
+{ token: '8f0cce1f4db6505247f8513bac960f69',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "695426" WHERE userid = "716725"
+695426
+8f0cce1f4db6505247f8513bac960f69
+1736588602718
+9d9deb2b74d079f6a363790c910c2653
+UPDATE t_users SET roomid = null WHERE userid = "716725"
+DELETE FROM t_rooms WHERE id = '695426'
+SELECT name,sex,headimg FROM t_users WHERE userid=716725
+东郭不输
+INSERT INTO t_users(userid,account,name,coins,gems,sex,headimg) VALUES("664393", "guest_1736588678519","5Lic6YOt5LiN6L6T",1000,21,0,null)
+SELECT name,sex,headimg FROM t_users WHERE userid=664393
+{ type: 'xzdd',
+  baseScore: 1,
+  zimo: 0,
+  jiangdui: false,
+  hsz: false,
+  dianganghua: 0,
+  menqing: false,
+  tiandihu: false,
+  maxFan: 4,
+  maxGames: 4,
+  creator: 716725 }
+INSERT INTO t_rooms(uuid,id,base_info,ip,port,create_time)                 VALUES('1736588693397403394','403394','{"type":"xzdd","baseScore":1,"zimo":0,"jiangdui":false,"hsz":false,"dianganghua":0,"menqing":false,"tiandihu":false,"maxFan":4,"maxGames":4,"creator":716725}','127.0.0.1',10000,1736588694)
+1736588693397403394
+{ userid: '716725',
+  name: '南宫赌圣',
+  roomid: '403394',
+  sign: '4927fafc8f5ec19faabc179a0957cf0d' }
+4927fafc8f5ec19faabc179a0957cf0d
+{ token: '0a5bf5dc25493fe526943feccb5023df',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "403394" WHERE userid = "716725"
+403394
+0a5bf5dc25493fe526943feccb5023df
+1736588693416
+a66f183cb20dc6f3fb256c4f485841e2
+{ userid: '664393',
+  name: '东郭不输',
+  roomid: '403394',
+  sign: 'ec6a1efed7e77ffb0e29f9c9c1f7e2fb' }
+ec6a1efed7e77ffb0e29f9c9c1f7e2fb
+{ token: '9dbf404dd1df7ba8756b70a2090a6992',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "403394" WHERE userid = "664393"
+403394
+9dbf404dd1df7ba8756b70a2090a6992
+1736588705821
+5d7d2455e3a9684893df9493c19efd9c
+SELECT name,sex,headimg FROM t_users WHERE userid=664393
+SELECT name,sex,headimg FROM t_users WHERE userid=716725
+欧阳雀圣
+INSERT INTO t_users(userid,account,name,coins,gems,sex,headimg) VALUES("149275", "guest_1736588750688","5qyn6Ziz6ZuA5Zyj",1000,21,0,null)
+SELECT name,sex,headimg FROM t_users WHERE userid=149275
+{ userid: '149275',
+  name: '欧阳雀圣',
+  roomid: '403394',
+  sign: 'c80bd459a5993d5f505433d253379259' }
+c80bd459a5993d5f505433d253379259
+{ token: '66ce586bc0f6c595912cd4d24ab578af',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "403394" WHERE userid = "149275"
+403394
+66ce586bc0f6c595912cd4d24ab578af
+1736588761884
+81735059c358bb5c452e0ae9691bc7e1
+SELECT name,sex,headimg FROM t_users WHERE userid=149275
+SELECT name,sex,headimg FROM t_users WHERE userid=149275
+SELECT name,sex,headimg FROM t_users WHERE userid=716725
+SELECT name,sex,headimg FROM t_users WHERE userid=664393
+SELECT name,sex,headimg FROM t_users WHERE userid=149275
+{ userid: '149275',
+  name: '欧阳雀圣',
+  roomid: '403394',
+  sign: 'c80bd459a5993d5f505433d253379259' }
+c80bd459a5993d5f505433d253379259
+{ token: 'e2da75abbe14460e3d756178e9e81087',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "403394" WHERE userid = "149275"
+403394
+e2da75abbe14460e3d756178e9e81087
+1736588781747
+bca1bb8ac468ffc9db1c89c9ea5ffcec
+SELECT name,sex,headimg FROM t_users WHERE userid=716725
+SELECT name,sex,headimg FROM t_users WHERE userid=664393
+UPDATE t_users SET roomid = null WHERE userid = "149275"
+端木不输
+INSERT INTO t_users(userid,account,name,coins,gems,sex,headimg) VALUES("600022", "guest_1736588803704","56uv5pyo5LiN6L6T",1000,21,0,null)
+SELECT name,sex,headimg FROM t_users WHERE userid=600022
+{ userid: '600022',
+  name: '端木不输',
+  roomid: '403394',
+  sign: '1da50d0096620593493b7960ec9f7087' }
+1da50d0096620593493b7960ec9f7087
+{ token: 'db9f6adee31e1624631decb6c095e18a',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "403394" WHERE userid = "600022"
+403394
+db9f6adee31e1624631decb6c095e18a
+1736588814278
+7c47d4ad57d5b586bed48f5e24d364f7
+SELECT name,sex,headimg FROM t_users WHERE userid=600022
+SELECT name,sex,headimg FROM t_users WHERE userid=600022
+SELECT name,sex,headimg FROM t_users WHERE userid=716725
+SELECT name,sex,headimg FROM t_users WHERE userid=664393
+宇文稳赢
+INSERT INTO t_users(userid,account,name,coins,gems,sex,headimg) VALUES("440250", "guest_1736588905672","5a6H5paH56iz6LWi",1000,21,0,null)
+SELECT name,sex,headimg FROM t_users WHERE userid=440250
+{ userid: '440250',
+  name: '宇文稳赢',
+  roomid: '403394',
+  sign: '37cf6c2d3c1f8a87beb228a1c05801a7' }
+37cf6c2d3c1f8a87beb228a1c05801a7
+{ token: '3561e31917804045af340cbe4131edf9',
+  errcode: 0,
+  errmsg: 'ok' }
+UPDATE t_users SET roomid = "403394" WHERE userid = "440250"
+403394
+3561e31917804045af340cbe4131edf9
+1736588918686
+d5b374bfaff36b0daf516c31a6edd621
+SELECT name,sex,headimg FROM t_users WHERE userid=440250
+SELECT name,sex,headimg FROM t_users WHERE userid=440250
+SELECT name,sex,headimg FROM t_users WHERE userid=440250
+game_holds_push
+mj_count_push
+game_num_push
+game_begin_push
+game_dingque_push
+game_holds_push
+mj_count_push
+game_num_push
+game_begin_push
+game_dingque_push
+game_holds_push
+mj_count_push
+game_num_push
+game_begin_push
+game_dingque_push
+game_holds_push
+mj_count_push
+game_num_push
+game_begin_push
+game_dingque_push
+SELECT name,sex,headimg FROM t_users WHERE userid=716725
+SELECT name,sex,headimg FROM t_users WHERE userid=664393
+SELECT name,sex,headimg FROM t_users WHERE userid=600022
+SELECT name,sex,headimg FROM t_users WHERE userid=716725
+SELECT name,sex,headimg FROM t_users WHERE userid=664393
+SELECT name,sex,headimg FROM t_users WHERE userid=600022
+game_action_push
+game_mopai_push
+game_action_push
+game_mopai_push
+game_action_push
+game_mopai_push
+game_action_push
+game_mopai_push
+game_action_push
+game_mopai_push
+game_action_push
+game_action_push
+game_mopai_push
+game_action_push
+game_mopai_push
+game_action_push
+game_mopai_push
+game_action_push
+game_action_push
+game_action_push
+game_mopai_push
+game_action_push
+game_mopai_push
+game_action_push
+game_mopai_push
+game_action_push
+game_mopai_push
+game_action_push
+game_mopai_push
+game_action_push
+game_mopai_push
+game_action_push
+game_mopai_push
+game_action_push
+game_mopai_push
+game_action_push
+game_mopai_push
+game_action_push
+game_action_push
+game_mopai_push
+game_action_push
+game_mopai_push
+game_action_push
+game_mopai_push
+game_action_push
+game_mopai_push
+game_action_push
+1
+5
+6
+1
+5
+6
+UPDATE t_users SET roomid = null WHERE userid = "716725"
+UPDATE t_users SET roomid = null WHERE userid = "664393"
+UPDATE t_users SET roomid = null WHERE userid = "600022"
+UPDATE t_users SET roomid = null WHERE userid = "440250"
+DELETE FROM t_rooms WHERE id = '403394'
+INSERT INTO t_games_archive(SELECT * FROM t_games WHERE room_uuid = '1736588693397403394')
+DELETE FROM t_games WHERE room_uuid = '1736588693397403394'
+SELECT name,sex,headimg FROM t_users WHERE userid=716725
+SELECT name,sex,headimg FROM t_users WHERE userid=716725

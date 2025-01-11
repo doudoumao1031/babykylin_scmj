@@ -1,0 +1,21 @@
+{
+  "name": "babykylin_scmj",
+  "version": "1.0.0",
+  "description": "幼麟棋牌-四川麻将v1.0 开源版本  已支持数百个在线产品，可放心使用",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "log4js": "^1.0.1",
+    "mysql": "^2.11.1",
+    "socket.io": "^1.4.6"
+  }
+}
